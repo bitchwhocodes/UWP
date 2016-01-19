@@ -22,13 +22,49 @@
     <AppXManifest Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-19T04:31:04.017</Modified>
+      <Modified>2016-01-19T05:16:55.407</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\add.css">
+      <PackagePath>css\add.css</PackagePath>
+      <Modified>2015-10-11T05:10:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\home.css">
+      <PackagePath>css\home.css</PackagePath>
+      <Modified>2015-10-11T05:10:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\list.css">
+      <PackagePath>css\list.css</PackagePath>
+      <Modified>2015-10-11T05:10:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-10-11T05:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-10-11T05:09:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-10-11T05:09:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\default.html">
       <PackagePath>default.html</PackagePath>
       <Modified>2016-01-19T04:57:06.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\add.html">
+      <PackagePath>html\add.html</PackagePath>
+      <Modified>2016-01-19T05:09:38.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\home.html">
+      <PackagePath>html\home.html</PackagePath>
+      <Modified>2016-01-19T05:12:16.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\list.html">
+      <PackagePath>html\list.html</PackagePath>
+      <Modified>2016-01-19T05:16:54.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -64,9 +100,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-11T05:09:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\add.js">
+      <PackagePath>js\add.js</PackagePath>
+      <Modified>2015-10-11T05:10:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2016-01-19T04:53:13.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\home.js">
+      <PackagePath>js\home.js</PackagePath>
+      <Modified>2016-01-19T05:16:43.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\list.js">
+      <PackagePath>js\list.js</PackagePath>
+      <Modified>2015-10-11T05:10:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -80,25 +128,13 @@
       <PackagePath>WinJS\js\ui.js</PackagePath>
       <Modified>2015-10-11T05:09:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-10-11T05:09:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-dark.css">
-      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
-      <Modified>2015-10-11T05:09:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-light.css">
-      <PackagePath>WinJS\css\ui-light.css</PackagePath>
-      <Modified>2015-10-11T05:09:40.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\fonts\Symbols.ttf">
       <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
       <Modified>2015-10-11T05:09:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-19T04:31:03.798</Modified>
+      <Modified>2016-01-19T05:16:55.282</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

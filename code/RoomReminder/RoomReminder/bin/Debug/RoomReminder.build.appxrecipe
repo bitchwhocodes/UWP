@@ -18,8 +18,35 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\add.css">
+      <PackagePath>css\add.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\home.css">
+      <PackagePath>css\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\list.css">
+      <PackagePath>css\list.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\default.html">
       <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\add.html">
+      <PackagePath>html\add.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\home.html">
+      <PackagePath>html\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\list.html">
+      <PackagePath>html\list.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -48,8 +75,17 @@
       <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\add.js">
+      <PackagePath>js\add.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\default.js">
       <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\home.js">
+      <PackagePath>js\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\list.js">
+      <PackagePath>js\list.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -59,15 +95,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\js\ui.js">
       <PackagePath>WinJS\js\ui.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-dark.css">
-      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\css\ui-light.css">
-      <PackagePath>WinJS\css\ui-light.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\fonts\Symbols.ttf">
       <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
