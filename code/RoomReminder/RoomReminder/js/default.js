@@ -6,6 +6,8 @@
 	var app = WinJS.Application;
 	var nav = WinJS.Navigation;
 	var activation = Windows.ApplicationModel.Activation;
+	WinJS.Namespace.define("RoomKey", {});
+	RoomKey.rooms =  [{ "number": "2340", "from": "03/23/2015" }, { "number": "4456", "from": "03/21/2015" }, { "number": "0098", "from": "03/20/2015" }];
 
 	app.onactivated = function (args) {
 		if (args.detail.kind === activation.ActivationKind.launch) {
