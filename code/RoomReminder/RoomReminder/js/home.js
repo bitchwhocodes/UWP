@@ -16,7 +16,12 @@
     function transitionBetweenPages(obj)
     {
         var id = obj.currentTarget.id;
-        console.log("button selected".id);
+        if (id == "addbutton")
+        {
+            WinJS.Navigation.navigate("/html/add.html", "home");
+        }
+       
+      
     }
 
 })();
