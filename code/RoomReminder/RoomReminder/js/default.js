@@ -14,8 +14,7 @@
 				// TODO: This application was suspended and then terminated.
 				// To create a smooth user experience, restore application state here so that it looks like the app never stopped running.
 			}
-			var options = {"averageRating":4.0}
-			var object = new WinJS.UI.Rating(document.getElementById("rateControl02"),options);
+		
 			args.setPromise(WinJS.UI.processAll());
 		}
 	};
