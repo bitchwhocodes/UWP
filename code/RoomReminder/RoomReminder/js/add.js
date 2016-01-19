@@ -20,7 +20,6 @@
                 roominput.value = '';
             }
             
-         
             datePicker = datepicker.winControl;
             startDate = datePicker.current.toLocaleDateString();
 
@@ -44,10 +43,7 @@
     function handleInputChange() {
         var input = WinJS.Utilities.query("input");
         var value = input[0].value;
-        app.sessionState.roomInput = value;
-        console.log('stacey'+app.sessionState.roomInput)
-       
-        
+        app.sessionState.roomInput = value; 
     }
 
     function saveRoomNumber(obj){
