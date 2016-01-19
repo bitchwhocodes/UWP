@@ -7,21 +7,21 @@
 </head>
 <body>
     <div id="list">
-        <div id="listView" data-win-options="{
-            itemDataSource:,
-            itemTemplate:select(''.listTemplate'),
-            selectionMode:'none',
-            tapBehaviour:'none',
-            layout:{type:WinJS.UI.ListLayout}
-            }" data-win-control="WinJS.UI.ListView" class="win-selectionstylefilled">
-
+        <div class="listTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+            <h4 class="win-h4" data-win-bind="textContent: number"></h4>
+            <h6 class="win-h6" data-win-bind="textContent: from"></h6>
         </div>
 
-        <div class="listTemplate" style="display:none" data-win-control="WinJS.Binding.Template">
-            <div>
-                <h4 class="win-h4" data-win-bind="textContent:number"></h4>
-                <h6 class="win-h6" data-win-bind="textContent:from"></h6>
-            </div>
+        <div id="listView"
+            class="win-selectionstylefilled"
+            data-win-control="WinJS.UI.ListView"
+            data-win-options="{
+            itemDataSource: Rooms.ListView.data.dataSource,
+            itemTemplate: select('.listTemplate'),
+            selectionMode: 'none',
+            tapBehavior: 'none',
+            layout: { type: WinJS.UI.ListLayout }
+            }">
         </div>
     </div>
 </body>
