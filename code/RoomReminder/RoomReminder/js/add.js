@@ -53,7 +53,21 @@
     {
         var point = pos.coordinate.point.position;
         console.log("Lat: "+point.latitude);
-        console.log("Long :"+point.longitude);
+        console.log("Long :" + point.longitude);
+        var url = "http://dev.virtualearth.net/REST/v1/Locations/" + point.latitude + "," + point.longitude + "?o=json&key=0nNn7QOt0t70b88pzUG5~NOX_BfvejoJJZ-h4ecfxuA~AuGtrUcPMAzWa0Yl09ghfxZJW_08iINI2OmafNDTDIvJaMAAQZlQmK2KLB2lrEIP";
+        console.log(url);
+        WinJS.xhr({
+            url: url,
+            responseType:"json"
+        }).done(function (result) {
+            
+            if (result.response.resourceSets)
+            {
+                RoomKey.location = result.response.resourceSets[0].resources[0].name
+            }
+            
+           
+        })
     }
 
     function errorHandler(e)
