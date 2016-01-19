@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-19T05:16:55.407</Modified>
+      <Modified>2016-01-19T06:22:11.259</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -52,11 +52,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2016-01-19T05:49:56.246</Modified>
+      <Modified>2016-01-19T06:21:13.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\add.html">
       <PackagePath>html\add.html</PackagePath>
-      <Modified>2016-01-19T05:57:21.456</Modified>
+      <Modified>2016-01-19T06:25:08.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\home.html">
       <PackagePath>html\home.html</PackagePath>
@@ -102,7 +102,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\add.js">
       <PackagePath>js\add.js</PackagePath>
-      <Modified>2016-01-19T06:07:02.442</Modified>
+      <Modified>2016-01-19T06:37:18.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\home.js">
       <PackagePath>js\home.js</PackagePath>
-      <Modified>2016-01-19T06:08:40.442</Modified>
+      <Modified>2016-01-19T06:12:20.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\list.js">
       <PackagePath>js\list.js</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-19T05:16:55.282</Modified>
+      <Modified>2016-01-19T06:22:11.149</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

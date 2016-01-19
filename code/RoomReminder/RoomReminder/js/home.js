@@ -5,6 +5,9 @@
         ready: function (element, options) {
             addbutton.addEventListener("click", transitionBetweenPages, false);
             allbutton.addEventListener("click", transitionBetweenPages, false);
+            if (WinJS.Navigation.state == "add" || WinJS.Navigation.state == "list") {
+                WinJS.Animation.enterPage(homepage, null);
+            }
         },
         unload: function ()
         {
