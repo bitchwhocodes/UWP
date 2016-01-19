@@ -8,7 +8,7 @@
     var page = WinJS.UI.Pages.define("html/add.html", {
         ready: function (element, options) {
             console.log("Add page ready");
-            savebutton.addEventListener("click", transitionBetweenPages, false);
+            savebutton.addEventListener("click", saveRoomNumber, false);
             returnbutton.addEventListener("click", returnHome, false);
             datepicker.addEventListener("change", handleChange, false);
          
@@ -32,6 +32,31 @@
         }
     })
 
+    function saveRoomNumber(obj){
+        var input = WinJS.Utilities.query("input");
+        var value = input[0].value;
+        if (isNaN(value)) {
+            // should handle this
+        } else {
+            writeRoomNumber(value);
+        }
+
+    }
+    function writeRoomNumber(value)
+    {
+        var room = {
+            "number": value,
+            "from":startDate,
+            "to":endDate
+        }
+
+        Rooms.ListView.data.push(room);
+        console.log(RoomKey.rooms);
+        var promise = WinJS.Application.roaming.writeText("current", JSON.stringify(RoomKey.rooms));
+        promise.done(function () {
+            goHome();
+        })
+    }
     function backRequested() {
         goHome();
     }
@@ -60,13 +85,10 @@
             url: url,
             responseType:"json"
         }).done(function (result) {
-            
             if (result.response.resourceSets)
             {
                 RoomKey.location = result.response.resourceSets[0].resources[0].name
             }
-            
-           
         })
     }
 

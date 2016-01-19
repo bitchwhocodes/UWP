@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\list.html">
       <PackagePath>html\list.html</PackagePath>
-      <Modified>2016-01-19T07:30:36.317</Modified>
+      <Modified>2016-01-19T08:39:08.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\add.js">
       <PackagePath>js\add.js</PackagePath>
-      <Modified>2016-01-19T08:11:54.872</Modified>
+      <Modified>2016-01-19T08:44:00.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2016-01-19T07:30:08.384</Modified>
+      <Modified>2016-01-19T08:39:57.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\home.js">
       <PackagePath>js\home.js</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\list.js">
       <PackagePath>js\list.js</PackagePath>
-      <Modified>2016-01-19T07:42:18.735</Modified>
+      <Modified>2016-01-19T08:39:50.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>

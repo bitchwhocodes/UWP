@@ -7,7 +7,8 @@
 	var nav = WinJS.Navigation;
 	var activation = Windows.ApplicationModel.Activation;
 	WinJS.Namespace.define("RoomKey", {});
-	RoomKey.rooms =  [{ "number": "2340", "from": "03/23/2015" }, { "number": "4456", "from": "03/21/2015" }, { "number": "0098", "from": "03/20/2015" }];
+	RoomKey.rooms = [];
+
 
 	app.onactivated = function (args) {
 		if (args.detail.kind === activation.ActivationKind.launch) {
@@ -37,13 +38,31 @@
 			    p.done();
 			    eventObject.detail.setPromise(p);
 			}
-
+			checkRoamingData();
 			nav.addEventListener("navigating", navigating);
 			nav.navigate("/html/home.html", "home");
 		
 			args.setPromise(WinJS.UI.processAll());
 		}
 	};
+
+	function checkRoamingData() {
+	    var promise = WinJS.Application.roaming.readText("current", "undefined");
+	    promise.done(function (txt) {
+	        if (txt != "undefined") {
+	            console.log("Roaming Data text: " + txt);
+	            var obj = JSON.parse(txt);
+	            RoomKey.rooms = obj;
+        
+	            WinJS.Namespace.define("Rooms.ListView", {
+	                data: new WinJS.Binding.List(RoomKey.rooms)
+	            })
+
+	        } else {
+	            console.log("found nothing");
+	        }
+	    })
+	}
 
 	app.oncheckpoint = function (args) {
 		// TODO: This application is about to be suspended. Save any state that needs to persist across suspensions here.
