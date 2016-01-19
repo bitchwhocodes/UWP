@@ -5,8 +5,13 @@
         ready: function (element, options) {
             addbutton.addEventListener("click", transitionBetweenPages, false);
             allbutton.addEventListener("click", transitionBetweenPages, false);
+        },
+        unload: function ()
+        {
+            console.log("Home Page is Unloading")
         }
-    })
+    });
+
 
     function transitionBetweenPages(obj)
     {
