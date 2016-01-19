@@ -16,10 +16,12 @@
     function transitionBetweenPages(obj)
     {
         var id = obj.currentTarget.id;
-        if (id == "addbutton")
-        {
-            WinJS.Navigation.navigate("/html/add.html", "home");
-        }
+        var url = (id == "allbutton") ? "/html/list.html" : "/html/add.html";
+        WinJS.UI.Animation.exitPage(homepage, null).done(
+            function () {
+                WinJS.Navigation.navigate(url);
+            }
+       )
        
       
     }
