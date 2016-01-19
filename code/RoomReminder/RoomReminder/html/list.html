@@ -7,7 +7,12 @@
 </head>
 <body>
     <div id="list">
-        <div id="listView" data-win-control="WinJS.UI.ListView" class="win-selectionstylefilled">
+        <div id="listView" data-win-options="{
+            itemDataSource:,
+            selectionMode:'none',
+            tapBehaviour:'none',
+            layout:{type:WinJS.UI.ListLayout}
+            }" data-win-control="WinJS.UI.ListView" class="win-selectionstylefilled">
 
         </div>
     </div>
