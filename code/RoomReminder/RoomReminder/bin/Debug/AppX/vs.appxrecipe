@@ -10,7 +10,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>350b1a97-872b-4486-a873-32bd6c8ecbe6</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>D1791DD6F83D89DD21E397054B7C52852106F9864451E03DCA30D69544A55FC8</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>534FD8138ED957459CC94F9FB5E1DCAE7D0EF55EA5CA73B0C2794CBC6B4C4DDA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>350b1a97-872b-4486-a873-32bd6c8ecbe6_1.0.0.0_neutral__bcxp93v8ktmq4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>350b1a97-872b-4486-a873-32bd6c8ecbe6_bcxp93v8ktmq4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>350b1a97-872b-4486-a873-32bd6c8ecbe6</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-19T06:22:11.259</Modified>
+      <Modified>2016-01-19T07:58:54.794</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\html\list.html">
       <PackagePath>html\list.html</PackagePath>
-      <Modified>2016-01-19T07:09:43.743</Modified>
+      <Modified>2016-01-19T07:30:36.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -102,19 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\add.js">
       <PackagePath>js\add.js</PackagePath>
-      <Modified>2016-01-19T06:39:32.832</Modified>
+      <Modified>2016-01-19T08:00:34.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2016-01-19T07:26:36.356</Modified>
+      <Modified>2016-01-19T07:30:08.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\home.js">
       <PackagePath>js\home.js</PackagePath>
-      <Modified>2016-01-19T06:12:20.158</Modified>
+      <Modified>2016-01-19T07:44:16.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\js\list.js">
       <PackagePath>js\list.js</PackagePath>
-      <Modified>2016-01-19T07:27:06.715</Modified>
+      <Modified>2016-01-19T07:42:18.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\WinJS\js\en-US\ui.strings.js">
       <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Windows to Go\Documents\UWPCourse\code\RoomReminder\RoomReminder\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-19T06:22:11.149</Modified>
+      <Modified>2016-01-19T07:58:54.747</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
