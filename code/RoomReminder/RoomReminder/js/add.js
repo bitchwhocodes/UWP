@@ -4,6 +4,7 @@
     var endDate, startDate;
     var systemNavigationManager = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
     var loc = null;
+    var app = WinJS.Application;
 
     var page = WinJS.UI.Pages.define("html/add.html", {
         ready: function (element, options) {
@@ -11,6 +12,14 @@
             savebutton.addEventListener("click", saveRoomNumber, false);
             returnbutton.addEventListener("click", returnHome, false);
             datepicker.addEventListener("change", handleChange, false);
+            roominput.addEventListener("input", handleInputChange, false);
+            console.log("stacey" + app.sessionState.roomInput);
+            if (app.sessionState && app.sessionState.roomInput != undefined) {
+                roominput.value = app.sessionState.roomInput;
+            } else {
+                roominput.value = '';
+            }
+            
          
             datePicker = datepicker.winControl;
             startDate = datePicker.current.toLocaleDateString();
@@ -31,6 +40,15 @@
             systemNavigationManager.appViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.collapsed;
         }
     })
+
+    function handleInputChange() {
+        var input = WinJS.Utilities.query("input");
+        var value = input[0].value;
+        app.sessionState.roomInput = value;
+        console.log('stacey'+app.sessionState.roomInput)
+       
+        
+    }
 
     function saveRoomNumber(obj){
         var input = WinJS.Utilities.query("input");

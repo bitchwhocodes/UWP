@@ -8,6 +8,7 @@
 	var activation = Windows.ApplicationModel.Activation;
 	WinJS.Namespace.define("RoomKey", {});
 	RoomKey.rooms = [];
+	var mySessionState = WinJS.Application.sessionState;
 
 
 	app.onactivated = function (args) {
@@ -34,6 +35,7 @@
 			    var p = WinJS.UI.Pages.render(url, host, eventObject.detail.state).
                 then(function () {
                     console.log("we can capture when its done");
+                   
                 })
 			    p.done();
 			    eventObject.detail.setPromise(p);
@@ -41,6 +43,7 @@
 			checkRoamingData();
 			nav.addEventListener("navigating", navigating);
 			nav.navigate("/html/home.html", "home");
+			
 		
 			args.setPromise(WinJS.UI.processAll());
 		}
@@ -65,6 +68,7 @@
 	}
 
 	app.oncheckpoint = function (args) {
+	    console.log(app.sessionState.roomInput);
 		// TODO: This application is about to be suspended. Save any state that needs to persist across suspensions here.
 		// You might use the WinJS.Application.sessionState object, which is automatically saved and restored across suspension.
 		// If you need to complete an asynchronous operation before your application is suspended, call args.setPromise().
